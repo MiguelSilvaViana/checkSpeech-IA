@@ -1,0 +1,11 @@
+1- arrumar os indicadores do hamburg menu de qual pagina esta
+2- arrumar o menu quando abrir para nao rolar scroll na pagina
+3- ajeitar para nao aparecer os parceiros quando o menu estiver aberto clients page
+4- olhar responsividade
+5- criar tela principal
+6- copiar aquela tela de soluçoes e dar seu than
+7- preços criar a parte de preços e fazer aquela animaçao com framer motion quando trocar o valor de mensal para anual daquele card
+8- criar area contato
+9- procurar alguma lib de mascara de form
+10- achar alguma forma de captcha de form
+11- pagina inicial neon button + magnetico + aquele efeito ver como fica melhor
