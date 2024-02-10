@@ -54,7 +54,7 @@ const Footer = () => {
           <nav className='flex flex-wrap items-center h-full gap-x-6'>
             {navData.map((item, index) => (
               <Link
-                className='link'
+                className='relative text-white transition-all duration-300 border-b-2 sm:text-base border-b-transparent hover:scale-110'
                 href={item.path}
                 key={index}
               >

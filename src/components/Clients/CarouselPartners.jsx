@@ -40,9 +40,9 @@ const CarouselPartners = () => {
   ];
 
   return (
-    <div className='w-full  flex-col flex justify-center items-center  shadow-inner  py-16 h-[450px] bg-gray-100 border-y-[#ddd] shadow-black'>
+    <div className='w-full  flex-col flex justify-center items-center  shadow-inner  py-16 h-[300px] sm:h-[380px] xl:h-[450px] bg-gray-100 border-y-[#ddd] shadow-black'>
       <div>
-        <h2 className='mb-10 text-6xl font-bold tracking-wide text-black'>
+        <h2 className='mb-10 text-5xl font-bold tracking-wide text-black sm:text-6xl'>
           CLIENTES
         </h2>
       </div>

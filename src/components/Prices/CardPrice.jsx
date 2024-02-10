@@ -59,6 +59,7 @@ const CardPrice = ({ title, monthlyPrice, yearlyPrice, functions }) => {
         whileInView={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 1.5, delay: 0.3 }}
+        viewport={{ once: true }}
         className='flex flex-col items-center justify-center w-full h-full gap-y-10'
       >
         <div className='flex items-center justify-center w-full gap-x-10'>
@@ -85,7 +86,7 @@ const CardPrice = ({ title, monthlyPrice, yearlyPrice, functions }) => {
           ))}
         </div>
 
-        <div className='flex gap-x-10'>
+        <div className='flex flex-col items-center gap-y-10 xl:gap-y-0 xl:gap-x-10 xl:flex-row'>
           {pricesData.map((item, index) => (
             <Card
               {...item}
@@ -101,11 +102,11 @@ const CardPrice = ({ title, monthlyPrice, yearlyPrice, functions }) => {
 
 const Card = ({ title, planType, monthlyPrice, yearlyPrice, functions }) => {
   return (
-    <div className='flex flex-col flex-wrap max-w-sm px-8 py-10 overflow-hidden bg-white rounded-lg shadow-xl gap-y-4 shadow-black/90'>
+    <div className='flex flex-col flex-wrap max-w-sm px-6 py-8 overflow-hidden bg-white rounded-lg shadow-xl sm:px-8 sm:py-10 gap-y-4 shadow-black/90'>
       <p className='text-6xl font-bold'>{title}</p>
 
       {title === 'Enterprise' ? (
-        <div>
+        <div className='relative min-h-[50px]'>
           <p className='text-4xl font-bold'>
             {yearlyPrice} <span className='text-xl font-normal'></span>
           </p>

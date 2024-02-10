@@ -47,6 +47,7 @@ const index = () => {
             initial='hidden'
             whileInView={'show'}
             exit='hidden'
+            viewport={{ once: true }}
             className='mb-6 text-6xl font-bold tracking-wide neon-text'
           >
             Soluções
@@ -56,6 +57,7 @@ const index = () => {
             initial='hidden'
             whileInView={'show'}
             exit='hidden'
+            viewport={{ once: true }}
             className='max-w-3xl text-justify'
           >
             O CheckSpeech AI oferece soluções avançadas de conversão de fala em
@@ -73,6 +75,7 @@ const index = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               exit={{ opacity: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 1.5 }}
               className='flex flex-col text-black gap-y-6'
             >
@@ -92,6 +95,7 @@ const index = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1.5 }}
               className={`text-white drop-shadow-lg bg-primary rounded-xl  max-w-lg min-h-[10rem] sticky top-20 left-0`}

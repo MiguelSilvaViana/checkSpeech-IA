@@ -30,6 +30,7 @@ const Form = () => {
         whileInView={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         onSubmit={handleSubmit}
         className='w-full h-full xl:max-w-xl'
       >

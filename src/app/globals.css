@@ -16,7 +16,7 @@
   }
 
   .hero {
-    @apply relative w-full h-auto min-h-screen overflow-hidden bg-gradient-to-tr from-black via-black/80 to-rose-900;
+    @apply relative w-full h-auto px-4 overflow-hidden xl:min-h-screen bg-gradient-to-tr from-black via-black/80 to-rose-900 xl:px-0;
   }
 
   /* inputs */

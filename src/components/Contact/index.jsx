@@ -15,10 +15,11 @@ const index = () => {
         <div className='relative flex flex-col items-center justify-center w-full h-full min-h-screen px-6 mx-auto sm:px-10 xl:px-0 gap-y-10'>
           <div>
             <motion.h2
-              variants={fadeIn('up', 0.3)}
-              initial='hidden'
-              exit='hidden'
-              animate='show'
+              initial={{ opactity: 0, y: 80 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1.5 }}
+              viewport={{ once: true }}
               className='text-6xl font-bold tracking-wide text-white neon-text'
             >
               Contato

@@ -48,7 +48,7 @@ const Hero = () => {
               initial='hidden'
               animate='show'
               exit='hidden'
-              className='flex gap-x-10'
+              className='flex items-center justify-center w-full gap-x-10 xl:w-auto sm:items-center sm:justify-start'
             >
               <NeonButton
                 text={'Contato'}
