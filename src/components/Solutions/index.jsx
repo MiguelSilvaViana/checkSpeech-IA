@@ -38,7 +38,7 @@ const index = () => {
   return (
     <section
       id='solutions'
-      className='flex flex-col items-center pt-[6rem] pb-12 -mt-1 px-4 min-h-screen text-white'
+      className='flex flex-col items-center pt-[4rem] xl:pt-[6rem] pb-12 -mt-1 px-4 min-h-screen text-white'
     >
       <div className='container h-full px-6 mx-auto sm:px-10 xl:px-0'>
         <div className='flex flex-col items-center justify-center w-full '>
@@ -69,14 +69,14 @@ const index = () => {
             precisão nas interações por voz.
           </motion.p>
         </div>
-        <div className='flex flex-col items-center pt-[6rem] pb-12 -mt-1 px-4'>
+        <div className='flex flex-col items-center pt-[4rem] xl:pt-[6rem] pb-12 -mt-1 px-4'>
           <div className='flex flex-col items-start justify-center max-w-screen-lg gap-6 mt-10 transition-all duration-300 ease-in-out md:flex-row'>
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1.5 }}
+              transition={{ duration: 1.5, delay: 0.3 }}
               className='flex flex-col text-black gap-y-6'
             >
               {solutionsData.map((item, index) => {

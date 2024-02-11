@@ -107,7 +107,7 @@ const Header = () => {
           <nav className='items-center hidden h-full gap-x-6 xl:flex'>
             {navData.map((item, index) => (
               <Link
-                className='link'
+                className='font-semibold link'
                 href={item.path}
                 key={index}
               >

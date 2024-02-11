@@ -43,7 +43,7 @@
   }
 
   .neon-border {
-    animation: pulsate 1.5 infinite alternate;
+    /* animation: pulsate 1.5 infinite alternate; */
     border-radius: 5px;
     box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #d60e4a,
       0 0 0.8rem #d60e4a, 0 0 2.8rem #d60e4a, inset 0 0 1.3rem #d60e4a;

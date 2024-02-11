@@ -70,7 +70,7 @@ const Hero = () => {
           animate='show'
           exit={'hidden'}
           transition={{ duration: 1, ease: 'easeInOut' }}
-          className='w-full h-full max-w-[1000px] max-h-[1000px] absolute -bottom-32 xl:-bottom-16  lg:right-[-20%]'
+          className='w-full h-full max-w-[1000px] max-h-[1000px] absolute -bottom-8 lg:right-[-24%]'
         >
           <AvatarRobotic />
         </motion.div>
