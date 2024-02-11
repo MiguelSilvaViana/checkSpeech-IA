@@ -100,7 +100,10 @@ const index = () => {
               transition={{ duration: 1.5 }}
               className={`text-white drop-shadow-lg bg-primary rounded-xl  max-w-lg min-h-[10rem] sticky top-20 left-0`}
             >
-              <ItemSolution {...solutionHighlighted[0]} />
+              <ItemSolution
+                {...solutionHighlighted[0]}
+                customClass={'neon-border'}
+              />
             </motion.div>
           </div>
         </div>

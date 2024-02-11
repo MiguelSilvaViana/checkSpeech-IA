@@ -41,6 +41,25 @@
     text-shadow: 0 0 10px #d60e4a, 0 0 20px #d60e4a, 0 0 30px #d60e4a,
       0 0 40px #d60e4a, 0 0 70px #d60e4a, 0 0 80px #d60e4a, 0 0 100px #d60e4a;
   }
+
+  .neon-border {
+    animation: pulsate 1.5 infinite alternate;
+    border-radius: 5px;
+    box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #d60e4a,
+      0 0 0.8rem #d60e4a, 0 0 2.8rem #d60e4a, inset 0 0 1.3rem #d60e4a;
+  }
+
+  @keyframes pulsate {
+    100% {
+      box-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #bc13fe,
+        0 0 80px #bc13fe, 0 0 90px #bc13fe, 0 0 100px #bc13fe, 0 0 150px #bc13fe;
+    }
+
+    0% {
+      box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #bc13fe,
+        0 0 45px #bc13fe, 0 0 55px #bc13fe, 0 0 70px #bc13fe, 0 0 80px #bc13fe;
+    }
+  }
 }
 
 @layer marquee {
