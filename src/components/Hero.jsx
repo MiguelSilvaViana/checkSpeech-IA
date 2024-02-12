@@ -29,7 +29,7 @@ const Hero = () => {
             </motion.h1>
 
             <motion.p
-              variants={fadeIn('up', 0.3)}
+              variants={fadeIn('up', 0.2)}
               initial='hidden'
               animate='show'
               exit='hidden'
