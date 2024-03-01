@@ -7,7 +7,7 @@ import Hero from '@/components/Hero';
 
 export default function Home() {
   return (
-    <main className='h-full min-h-screen bg-black scroll-smooth'>
+    <main className='h-full min-h-screen overflow-x-hidden bg-black scroll-smooth'>
       <Hero />
 
       <Solutions />
